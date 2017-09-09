@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  display: flex;
+  flex-wrap: no-wrap;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #45494e;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.flex-row {
+  flex: 1 0 50%;
+  min-width: calc(100% - 40px);
+}
+
+#content {
+  color: #45494e;
+  background-color: pink;
+}
+
+#header {
+  text-align: right;
+  padding: 40px 0 20px 0;
+  color: white;
+}
+
+#header a {
+  color: pink;
+  text-decoration: none;
+}
+
+#header a:hover {
+  color: #eee;
+}
+
+#header li {
+  color: pink;
+  list-style: none;
+  display: inline-block;
+  padding-right: 1em;
+  font-size: 0.8em
+}
+
+.char {
+}
+
+.char-name {
+  font-weight: bold;
+  font-size: 100px;
+  padding: 20px;
+}
+
+.film-list {
+  padding-left: 40px;
+}
+
+.film {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: lighter;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext')
